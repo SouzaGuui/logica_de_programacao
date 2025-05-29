@@ -1,0 +1,113 @@
+
+
+
+Exercicios While
+
+
+
+
+Objetivo:Trabalhar lógica com "while", "if", "prompt" e validação de campos de login.
+
+
+
+
+
+
+
+1. Digite seu nome de usuário
+
+- Peça que o usuário digite seu nome.
+- Repita até que ele digite algo diferente de vazio ou só espaços.
+
+
+
+link do programiz : https://www.programiz.com/online-compiler/7Lhg7eLzxSMHS 
+
+
+
+let nome = prompt("Digite o seu nome: ")
+while(nome !== "Guilherme"){
+    console.log("dado incorreto. ")
+    nome = prompt("digite o seu nome novamente: ")
+}
+console.log("Dado correto.")
+
+
+
+
+
+
+
+2. Criação de senha válida
+
+- Peça uma senha ao usuário.
+- Repita até ele digitar corretamente.
+
+
+
+link do programiz : https://www.programiz.com/online-compiler/6ZzDwaWoOcNO0 
+
+
+
+let senha = prompt("Digite uma senha :");
+while (senha !== "232018") {
+    console.log("Dado incorreto.");
+    senha = prompt("Digite a senha novamente :");
+}
+console.log("Senha correta.");
+
+
+
+
+
+
+
+
+3. Confirmação de senha
+
+- Peça a senha e depois a confirmação.
+- Só prossiga se a confirmação for igual à senha.
+
+
+
+4. Simulação de login
+
+- Valide que o usuário digite "admin" e senha "1234".
+- Repita até ele digitar os dois corretamente.
+
+
+
+5. Login com mensagem de erro
+
+- Mesmo que o exercício anterior, mas:
+- Ao errar, exiba: "Usuário ou senha incorretos."
+
+
+
+6. Login com número limitado de tentativas
+
+- Permita no máximo 3 tentativas.
+- Se errar 3 vezes, exiba: "Acesso bloqueado."
+
+---
+
+7. Cadastro e login
+
+- Peça que o usuário cadastre nome e senha (armazenando em variáveis).
+- Depois, peça que ele faça o login usando esses dados.
+
+
+
+8. Login com "Esqueci minha senha"
+
+- Se o usuário errar, pergunte:
+    - "Esqueceu a senha? (sim/não)"
+    - Se sim, exiba a senha salva (simulação).
+
+
+
+9. Sistema com login e logout
+
+- Usuário se loga (usuário/senha).
+- Após sucesso, mostre: "Você está logado!"
+- Peça para digitar "sair" para fazer logout.
